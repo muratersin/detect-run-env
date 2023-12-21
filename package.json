@@ -18,6 +18,10 @@
     "cross-env-check",
     "js-runtime-check"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muratersin/run-env.git"
+  },
   "author": "Murat Ersin",
   "type": "module",
   "license": "MIT",
