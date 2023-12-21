@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test'
 
-test('has title', async ({ page }) => {
+test('Run env test on browser...', async ({ page }) => {
   await page.goto('http://localhost:1234/')
 
   await expect(page.getByTestId('is-browser')).toHaveText('true')

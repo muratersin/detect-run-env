@@ -9,7 +9,7 @@ import {
   DENO_VERSION,
   IS_NODE,
   NODE_VERSION
-} from '../index.mjs'
+} from '../index.js'
 
 describe('Run env test on bun...', () => {
   it('constants should be expected values', () => {

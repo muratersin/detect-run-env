@@ -15,7 +15,8 @@ const Browser = {
   Edge: 'edge',
   Firefox: 'firefox',
   Safari: 'safari',
-  Opera: 'opera'
+  Opera: 'opera',
+  Unknown: 'unknown'
 }
 
 const getBrowserName = () => {
@@ -41,7 +42,7 @@ const getBrowserName = () => {
     return Browser.Chrome
   }
 
-  return 'unknown'
+  return Browser.Unknown
 }
 
 const getBrowserVersion = () => {
