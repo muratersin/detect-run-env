@@ -8,42 +8,42 @@
   <body>
     <div>
       <span>IS_BROWSER:</span>
-      <span id="is-browser" data-testid="idBrowser"></span>
+      <span data-testid="is-browser" id="is-browser"></span>
     </div>
     <div>
       <span>BROWSER_VERSION:</span>
-      <span id="browser-version"></span>
+      <span data-testid="browser-version" id="browser-version"></span>
     </div>
     <div>
       <span>BROWSER_NAME:</span>
-      <span id="browser-name"></span>
+      <span data-testid="browser-name" id="browser-name"></span>
     </div>
     <hr />
     <div>
       <span>IS_BUN:</span>
-      <span id="is-bun"></span>
+      <span data-testid="is-bun" id="is-bun"></span>
     </div>
     <div>
       <span>BUN_VERSION:</span>
-      <span id="bun-version"></span>
+      <span data-testid="bun-version" id="bun-version"></span>
     </div>
     <hr />
     <div>
       <span>IS_DENO:</span>
-      <span id="is-deno"></span>
+      <span data-testid="is-deno" id="is-deno"></span>
     </div>
     <div>
       <span>DENO_VERSION:</span>
-      <span id="deno-version"></span>
+      <span data-testid="deno-version" id="deno-version"></span>
     </div>
     <hr />
     <div>
       <span>IS_NODE:</span>
-      <span id="is-node"></span>
+      <span data-testid="is-node" id="is-node"></span>
     </div>
     <div>
       <span>NODE_VERSION:</span>
-      <span id="node-version"></span>
+      <span data-testid="node-version" id="node-version"></span>
     </div>
     <script type="module">
       import {
@@ -57,9 +57,6 @@
         IS_NODE,
         NODE_VERSION
       } from '../../index.mjs'
-
-      window.BROWSER_NAME = BROWSER_NAME
-      console.log('Browser', BROWSER_NAME)
 
       document.getElementById('is-browser').innerText = IS_BROWSER
       document.getElementById('browser-version').innerText = BROWSER_VERSION
