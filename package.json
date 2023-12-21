@@ -1,0 +1,31 @@
+{
+  "name": "run-env",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test:browser": "node __test__/browser/browser.test.js",
+    "test:bun": "bun test __test__/bun.test.js",
+    "test:deno": "deno test  __test__/deno.test.js --import-map=deno-import-map.json ",
+    "test:node": "node __test__/node.test.js",
+    "test": "npm run test:deno && npm run test:node && npm run test:bun && npm run test:browser",
+    "dev": "parcel __test__/browser/browser.test.html"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "Murat Ersin",
+  "type": "module",
+  "license": "MIT",
+  "types": "index.d.ts",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.5",
+    "eslint": "^8.56.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.4.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "parcel": "^2.10.3",
+    "process": "^0.11.10",
+    "puppeteer": "^21.6.1"
+  }
+}

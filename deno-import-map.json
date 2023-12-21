@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "run-env/": "./",
+    "process": "node:process"
+  }
+}
