@@ -9,7 +9,7 @@ import {
   DENO_VERSION,
   IS_NODE,
   NODE_VERSION
-} from 'run-env/index.js'
+} from 'detect-run-env/index.js'
 
 // eslint-disable-next-line no-undef
 Deno.test('Run env test on deno...', () => {

@@ -1,5 +1,5 @@
 {
-  "name": "run-env",
+  "name": "detect-run-env",
   "version": "1.0.0",
   "description": "Runtime environment detection for JS",
   "main": "index.js",
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/muratersin/run-env.git"
+    "url": "https://github.com/muratersin/detect-run-env.git"
   },
   "author": "Murat Ersin",
   "type": "module",

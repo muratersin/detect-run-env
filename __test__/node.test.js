@@ -13,7 +13,7 @@ import {
   NODE_VERSION
 } from '../index.js'
 
-test('run-env test on nodejs...', () => {
+test('detect-run-env test on nodejs...', () => {
   assert.strictEqual(IS_BROWSER, false)
   assert.strictEqual(BROWSER_VERSION, undefined)
   assert.strictEqual(BROWSER_NAME, undefined)

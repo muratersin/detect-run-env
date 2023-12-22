@@ -1,4 +1,4 @@
-# run-env
+# detect-run-env
 
 Effortlessly determine the current JavaScript runtime environment with this lightweight module. Seamlessly detects whether your code is running in a browser, Node.js, Deno, or Bun. Simplify cross-platform compatibility checks in your projects.
 
@@ -15,7 +15,7 @@ import {
   DENO_VERSION,
   IS_NODE,
   NODE_VERSION
-} from 'run-env'
+} from 'detect-run-env'
 
 if (IS_BROWSER) {
   console.log('Browser name: ', BROWSER_NAME)

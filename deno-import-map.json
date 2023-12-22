@@ -1,6 +1,6 @@
 {
   "imports": {
-    "run-env/": "./",
+    "detect-run-env/": "./",
     "process": "node:process"
   }
 }
