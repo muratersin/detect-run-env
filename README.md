@@ -1,3 +1,5 @@
+[![npm version](https://img.shields.io/npm/v/detect-run-env.svg)](https://www.npmjs.com/package/detect-run-env)
+
 # detect-run-env
 
 Effortlessly determine the current JavaScript runtime environment with this lightweight module. Seamlessly detects whether your code is running in a browser, Node.js, Deno, or Bun. Simplify cross-platform compatibility checks in your projects.
