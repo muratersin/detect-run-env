@@ -22,7 +22,12 @@
     "type": "git",
     "url": "https://github.com/muratersin/detect-run-env.git"
   },
-  "author": "Murat Ersin",
+  "bugs": {
+    "email": "muratersin@yahoo.com",
+    "url": "https://github.com/muratersin/detect-run-env/issues"
+  },
+  "homepage": "https://github.com/muratersin/detect-run-env#readme",
+  "author": "Murat Ersin <muratersin@yahoo.com>",
   "type": "module",
   "license": "MIT",
   "types": "index.d.ts",
